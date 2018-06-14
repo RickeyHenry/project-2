@@ -1,0 +1,102 @@
+/* ========================================
+  Fixes Box Sizing
+======================================== */
+
+
+}
+/* ========================================
+  Clears List Styles, Margin, and Padding
+======================================== */
+
+
+
+
+/* ========================================
+  General CSS
+======================================== */
+
+* {
+  font-family: 'Open Sans', sans-serif;
+  color: #424242;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #8a8a8a;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+p {
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.contact {
+    text-align: center;
+}
+
+.element {
+  padding: 20px;
+  font-size: 30px;
+}
+
+.profile {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.box {
+  display: block;
+  color: grey;
+}
+
+.main-nav {
+  text-align: center;
+  decoration: none;
+  display: block;
+}
+.student {
+  text-align: center;
+}
+
+.col {
+  text-align: center;
+  display: inline-block;
+}
+
+.background {
+  background-color: lightgrey;
+}
+
+.container {
+  background-color: white;
+}
+/* media queries */
+
+@media (min-width: 769px) {
+.container {
+  width: 80%;
+  margin: auto;
+  display: block;
+}
+
+.main-nav li {
+  background-color: #F8F8F8;
+  display: block;
+  padding:15px;
+  margin-bottom: 15px;
+}
+
+  }
